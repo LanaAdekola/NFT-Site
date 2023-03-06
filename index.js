@@ -5,7 +5,7 @@ let contactId = document.getElementById("contact-id")
 
 document.addEventListener('click', function(e){
     if(e.target.dataset.orderId){
-        handleLikeClick(e.target.dataset.orderId) 
+        getOrderHtml(e.target.dataset.orderId) 
 })
 
 function getOrderHtml(){

@@ -5,7 +5,6 @@ body {
 }
 
 /* ----- TYPOGRAPHY ----- */
-
 h1, 
 h3 {
     margin: 0;
@@ -56,8 +55,8 @@ a {
     text-decoration: underline dotted; 
 }
 
-a:hover, 
-a:active {
+.a:hover, 
+.a:active {
     color: #451c7a;
 }
 
@@ -145,7 +144,7 @@ footer {
 
 /* ----- NAVIGATION ----- */
 
-nav a {
+.a {
     color: whitesmoke;
     text-decoration: none;
     font-size: 1.125rem;
@@ -158,6 +157,35 @@ ul {
     margin: 0;
     list-style-type: none;
 }
+
+/*Contact form*/
+.contact-us{
+    background: #ffb4a2;
+    padding: 20px;
+    
+    }
+    form{
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    }
+    label{
+    
+    }
+    .fullname, .email, .phonenumber, .message{
+    border: 0px;
+    border-radius: 4px;
+    padding: 5px;
+    }
+    .submit{
+    border: 0px;
+    border-radius: 4px;
+    padding: 5px;
+    background: #264653;
+    color: white
+    }
+    
 
 /* ----- MEDIA QUERIES ----- */
 
